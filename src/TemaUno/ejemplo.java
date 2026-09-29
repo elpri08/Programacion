@@ -2,10 +2,25 @@ package TemaUno;
 
 public class ejemplo {
 
-    static void main() {
+ public static void main(String[] args) {
+    
+    int edad;
+    double precioConIVA;
+    double precioSinIVA;
+    boolean gratis;
 
-        String nombre ="Adrian";
-        IO.println(nombre);
+    edad = 25; 
+    gratis = true; 
+    precioSinIVA = 99.99;
+    precioConIVA = precioSinIVA * 1.21;
+
+    IO.println("La edad es " + edad);
+    IO.println("El precio sin IVA es " + precioSinIVA);
+    IO.println("El precio con IVA es " + precioConIVA);
+   
+    IO.println ("Es gratis + gratis");
     }
-
+   
 }
+
+
