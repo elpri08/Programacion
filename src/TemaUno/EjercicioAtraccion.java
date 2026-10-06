@@ -6,10 +6,10 @@ public class EjercicioAtraccion {
         boolean mini  = true;
         boolean dragon = true;
 
-        dragon = (edad >= 12 && altura >= 140);
+        dragon = (edad >= 12 && altura >= 140); //&& Y, se cumplen las dos condiciones
         IO.println("Podria entrar al dragon " + dragon);
 
-        mini = (edad <= 12 || altura <= 140);
+        mini = (edad < 12 || altura < 140); //|| Y, se cumplen las dos condiciones
         IO.println("No podria entrar al mini " + mini);
     }
     
