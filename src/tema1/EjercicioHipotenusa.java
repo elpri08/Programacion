@@ -1,4 +1,4 @@
-package TemaUno;
+package temauno;
 
 public class EjercicioHipotenusa {
     public static void main(String[] args) {
